@@ -18,5 +18,5 @@ data class RatingModel (
     val movie: MovieModel,
 
     @Column
-    val rating: BigDecimal
+    val rating: Float
 )

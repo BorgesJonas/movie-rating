@@ -27,5 +27,5 @@ data class MovieModel (
     val gender: GenderModel,
 
     @Column
-    val totalRate: BigDecimal
+    val totalRate: Float
 )
